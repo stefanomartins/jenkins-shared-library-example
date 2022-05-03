@@ -1,4 +1,4 @@
-def call(params) {
+def call(Map params) {
     printSomething(params)
     printSomethingElse(params)
 }
