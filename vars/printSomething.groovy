@@ -1,3 +1,5 @@
-def call() {
-    print("Este sou eu sendo executado")
+def call(ma = "") {
+    stage("Primeiro estágio") {
+        print("Recebi a mensagem ${ma}")
+    }
 }
