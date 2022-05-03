@@ -1,5 +1,5 @@
 def call(params) {
-    stage("Segundo estágio") {
+    stage("Second stage") {
         print("Recebi a mensagem ${params["ma"]}")
     }
 }
