@@ -1,4 +1,4 @@
-def call(ma = "", mb = "") {
-    printSomething(ma)
-    printSomethingElse(mb)
+def call(params) {
+    printSomething(params)
+    printSomethingElse(params)
 }
