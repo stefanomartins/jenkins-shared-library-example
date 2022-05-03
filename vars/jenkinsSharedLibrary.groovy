@@ -1,4 +1,6 @@
 def call(Map params) {
-    printSomething params
-    printSomethingElse params
+    node(label: params.node) {
+        printSomething params
+        printSomethingElse params
+    }
 }
